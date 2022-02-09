@@ -7,7 +7,7 @@ auth.set_access_token(input("Input your access token, please: "), input("Input y
 api = tweepy.API(auth)
 user = api.verify_credentials()
 
-def limit_handler(cursor):
+def limit_handler(cursor): # function that prevents twitter from being overloaded by our requests by setting a timeout when we hit TooManyRequests error
     try:
         while True:
             yield cursor.next()
