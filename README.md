@@ -2,7 +2,7 @@
 This bot allows you to automatically like tweets with key words from your feed
 
 How does it work:<br>
-1) Create a twitter development account and create the app on development portal<br>
+1) Create a twitter development account and create an app on development portal<br>
 2) Turn on the OAuth function in settings of your account<br>
 3) Get secret data from "keys and tokens" tab<br>
 4) Run the script<br>
